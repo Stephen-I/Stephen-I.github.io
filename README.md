@@ -2,7 +2,23 @@
 
 # Objective
 
-To Investigate growth of Anime throughout teh year of 2023
+To Investigate growth of Anime throughout the year of 2023
+
+# Data Source
+
+What data is needed to acheive our objective? 
+
+we need data on the top Anime ratings from 2023 that includes 
+
+Anime names
+
+The studios their made by
+
+Amount of times they've been favourited
+
+The score rating 
+
+Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset
 
 
 ### 1. What are the top 7 most liked Anime studios?
