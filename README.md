@@ -117,12 +117,16 @@ And here is a tabular representation of the expected schema for the clean data:
 
 ## Transform Data
 
-`SELECT` 
-COLUMN_NAME,
- DATA_TYPE
-FROM INFORMATION_SCHEMA.COLUMNS 
-WHERE TABLE_NAME = 'anime-dataset-2023'
+Using the below code I viewed the data types of each of the columns
 
-ALTER TABLE [dbo].[anime-dataset-2023]
-ALTER COLUMN Episodes INTEGER`
+`SELECT` 
+`COLUMN_NAME,`
+ `DATA_TYPE`
+`FROM INFORMATION_SCHEMA.COLUMNS`
+`WHERE TABLE_NAME = 'anime-dataset-2023'`
+
+After confirming the columns with incorrect data types and used the below code to change them
+
+`ALTER TABLE [dbo].[anime-dataset-2023]`
+`ALTER COLUMN Episodes INTEGER`
 
