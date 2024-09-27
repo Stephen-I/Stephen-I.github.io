@@ -118,11 +118,10 @@ And here is a tabular representation of the expected schema for the clean data:
 ## Transform Data
 
 Using the below code I viewed the data types of each of the columns
-`
-SELECT COLUMN_NAME, DATA_TYPE
+
+`SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'anime-dataset-2023'
-`
+WHERE TABLE_NAME = 'anime-dataset-2023'`
 
 After confirming the columns with incorrect data types and used the below code to change them
 
