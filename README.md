@@ -45,7 +45,7 @@ Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimel
 | 5    | Novel                | 13             |
 
 
-# Tools
+## Tools
 
 | Tool     | Purpose                                               |
 |----------|-------------------------------------------------------|
