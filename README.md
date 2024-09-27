@@ -43,3 +43,13 @@ Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimel
 | 3    | Light Novel          | 22             |
 | 4    | Unknown              | 20             |
 | 5    | Novel                | 13             |
+
+
+# Tools
+
+| Tool     | Purpose                                               |
+|----------|-------------------------------------------------------|
+| Excel    | Exploring the data                                    |
+| Power BI | Cleaning, testing, and analyzing the data             |
+| SQL      | Visualizing the data via interactive dashboards       |
+| Github   | Hosting the project documentation and version control |
