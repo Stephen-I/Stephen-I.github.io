@@ -182,4 +182,4 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 # Visualisation
 
-![]()
+![Anime Dashboard](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Anime%20dashboard.png)
