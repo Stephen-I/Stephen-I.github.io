@@ -95,4 +95,34 @@ And here is a tabular representation of the expected schema for the clean data:
 
 | Column Name     | Data Type | Nullable |
 |-----------------|-----------|----------|
-|
+| anime_id        | INT       | NO       | 
+| Name            | VARCHAR   | NO       |
+| Score           | FLOAT     | NO       |
+| Genres          | VARCHAR   | NO       |
+| Type            | VARCHAR   | NO       |
+| Aired           | VARCHAR   | NO       |
+| Studios         | VARCHAR   | NO       |
+| Source          | VARCHAR   | NO       |
+| Rank            | INT       | NO       | 
+| Popularity      | NCHAR     | NO       | 
+| Favorites       | INT       | NO       |
+| Scored_By       | INT       | NO       |
+| Members         | INT       | NO       |
+
+### What steps are needed to clean and shape the data into the desired format?
+
+1. Remove unnecessary columns by only selecting the ones you need
+2. Remove Entries with NULL in the field
+3. Change incorrect data types
+
+## Transform Data
+
+`SELECT 
+COLUMN_NAME,
+ DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'anime-dataset-2023'
+
+ALTER TABLE [dbo].[anime-dataset-2023]
+ALTER COLUMN Episodes INTEGER`
+
