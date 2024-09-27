@@ -182,7 +182,7 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 # Testing
 
-## Column Counct Check
+## Column Count Check
 
 ### SQL Query
 
@@ -196,7 +196,7 @@ WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ![Column count](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/column%20count.png)
 
-### Data Type Check
+## Data Type Check
 
 ### SQL Query
 
@@ -213,7 +213,7 @@ WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ![Data Type Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Data%20type%20check.png)
 
-### Duplicate Check
+## Duplicate Check
 
 ### SQL Query
 
