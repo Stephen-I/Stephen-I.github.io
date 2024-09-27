@@ -6,17 +6,14 @@ To Investigate growth of Anime throughout the year of 2023
 
 ## Data Source
 
-What data is needed to achieve our objective? 
+### What data is needed to achieve our objective? 
 
-we need data on the top Anime ratings from 2023 that includes 
+We need data on the top Anime ratings from 2023 that includes: 
 
-Anime names
-
-The studios their made by
-
-Amount of times they've been favourited
-
-The score rating 
+- Anime names
+- The studios their made by
+- Amount of times they've been favourited
+- The score rating 
 
 Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset
 
@@ -56,9 +53,46 @@ Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimel
 
 # Development
 
-Get the data
-Explore the data in Excel
-Load the data into SQL Server
-Clean the data with SQL
-Test the data with SQL
-Visualize the data in Power BI
+## Psuedocode
+
+### What the general approach in creating this solution from start to finish?
+
+1. Get the data
+2. Explore the data in Excel
+3. Load the data into SQL Server
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualize the data in Power BI
+7. Generate the findings based on the insights
+8. Publish the data to GitHub Pages
+
+## Initial observations
+
+This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
+
+- There were various columns that can be used in this analysis effective therefore there is little need to contact the client for more data.
+- The third column contained the other name field which was in a different language. It will need to be confirmed if this is necessary so it can be dealt with.
+- We have more data than we need, so some of these columns would need to be removed.
+
+## Data cleaning
+
+What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Property     | Description |
+|--------------|-------------|
+|No of Columns | 13          |
+
+And here is a tabular representation of the expected schema for the clean data:
+
+| Column Name     | Data Type | Nullable |
+|-----------------|-----------|----------|
+|
