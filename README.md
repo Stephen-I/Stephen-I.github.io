@@ -117,7 +117,7 @@ And here is a tabular representation of the expected schema for the clean data:
 
 ## Transform Data
 
-`SELECT 
+`SELECT` 
 COLUMN_NAME,
  DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS 
