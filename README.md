@@ -180,6 +180,17 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 ```
 
+# Testing
+
+```
+SELECT COUNT(*) AS Column_count 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'view_anime_dataset_2023'
+
+```
+![]()
+
+
 # Visualisation
 
 ![Anime Dashboard](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Anime%20dashboard.png)
