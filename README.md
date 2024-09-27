@@ -53,3 +53,12 @@ Wheres the data coming from - https://www.kaggle.com/datasets/dbdmobile/myanimel
 | Power BI | Cleaning, testing, and analyzing the data             |
 | SQL      | Visualizing the data via interactive dashboards       |
 | Github   | Hosting the project documentation and version control |
+
+# Development
+
+Get the data
+Explore the data in Excel
+Load the data into SQL Server
+Clean the data with SQL
+Test the data with SQL
+Visualize the data in Power BI
