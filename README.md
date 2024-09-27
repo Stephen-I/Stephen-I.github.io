@@ -4,9 +4,9 @@
 
 To Investigate growth of Anime throughout the year of 2023
 
-# Data Source
+## Data Source
 
-What data is needed to acheive our objective? 
+What data is needed to achieve our objective? 
 
 we need data on the top Anime ratings from 2023 that includes 
 
