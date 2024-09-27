@@ -182,13 +182,42 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 # Testing
 
+## Column Counct Check
+
 ```
 SELECT COUNT(*) AS Column_count 
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ```
-![]()
+![Column count](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/column%20count.png)
+
+## Data Type Check
+
+```
+SELECT 
+COLUMN_NAME,
+ DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'view_anime_dataset_2023'
+
+```
+
+![Data Type Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Data%20type%20check.png)
+
+## Duplicate Check
+
+```
+SELECT 
+Name,
+COUNT(*) as duplicate_count
+FROM view_anime_dataset_2023
+GROUP BY Name
+HAVING COUNT(*) > 1
+
+```
+
+![Duplicate Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Duplicate%20check.png)
 
 
 # Visualisation
