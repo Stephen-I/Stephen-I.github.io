@@ -156,7 +156,7 @@ ALTER COLUMN Episodes INTEGER
 
 ```
 
-## Creat the SQL view
+## Create the SQL view
 
 ```
 CREATE VIEW view_anime_dataset_2023 AS
@@ -184,7 +184,7 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 ## Column Counct Check
 
-###SQL Query
+### SQL Query
 
 ```
 SELECT COUNT(*) AS Column_count 
@@ -192,13 +192,13 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ```
-###Output
+### Output
 
 ![Column count](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/column%20count.png)
 
 ### Data Type Check
 
-###SQL Query
+### SQL Query
 
 ```
 SELECT 
@@ -209,13 +209,13 @@ WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ```
 
-###Output
+### Output
 
 ![Data Type Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Data%20type%20check.png)
 
 ### Duplicate Check
 
-###SQL Query
+### SQL Query
 
 ```
 SELECT 
@@ -226,7 +226,7 @@ GROUP BY Name
 HAVING COUNT(*) > 1
 
 ```
-###Output
+### Output
 
 ![Duplicate Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Duplicate%20check.png)
 
