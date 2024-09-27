@@ -233,4 +233,8 @@ HAVING COUNT(*) > 1
 
 # Visualisation
 
+### What does the Dashboard look like?
+
 ![Anime Dashboard](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Anime%20dashboard.png)
+
+This shows various data points that explain the relationships different Anime's, the studios that produced them and public opinion on both.
