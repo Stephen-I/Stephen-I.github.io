@@ -117,6 +117,28 @@ And here is a tabular representation of the expected schema for the clean data:
 
 ## Transform Data
 
+First I extracted the required columns and removed any NULL values present
+
+```
+SELECT
+anime_id,
+Name, 
+Score,
+Genres,
+Type, 
+Aired,
+Studios,
+Source,
+Rank,
+Popularity,
+Favorites,
+Scored_By,
+Members
+FROM [dbo].[anime-dataset-2023]
+Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
+
+```
+
 Using the below code I viewed the data types of each of the columns
 
 ```
@@ -134,3 +156,26 @@ ALTER COLUMN Episodes INTEGER
 
 ```
 
+## Creat the SQL view
+
+```
+CREATE VIEW view_anime_dataset_2023 AS
+
+SELECT
+anime_id,
+Name, 
+Score,
+Genres,
+Type, 
+Aired,
+Studios,
+Source,
+Rank,
+Popularity,
+Favorites,
+Scored_By,
+Members
+FROM [dbo].[anime-dataset-2023]
+Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
+
+```
