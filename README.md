@@ -182,7 +182,9 @@ Where Score NOT Like 'NULL' AND Rank NOT LIKE 'NULL'
 
 # Testing
 
-### Column Counct Check
+## Column Counct Check
+
+###SQL Query
 
 ```
 SELECT COUNT(*) AS Column_count 
@@ -190,9 +192,13 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ```
+###Output
+
 ![Column count](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/column%20count.png)
 
 ### Data Type Check
+
+###SQL Query
 
 ```
 SELECT 
@@ -203,9 +209,13 @@ WHERE TABLE_NAME = 'view_anime_dataset_2023'
 
 ```
 
+###Output
+
 ![Data Type Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Data%20type%20check.png)
 
 ### Duplicate Check
+
+###SQL Query
 
 ```
 SELECT 
@@ -216,6 +226,7 @@ GROUP BY Name
 HAVING COUNT(*) > 1
 
 ```
+###Output
 
 ![Duplicate Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Duplicate%20check.png)
 
