@@ -47,8 +47,8 @@ Wheres the data coming from - [Kaggle](https://www.kaggle.com/datasets/dbdmobile
 | Tool     | Purpose                                               |
 |----------|-------------------------------------------------------|
 | Excel    | Exploring the data                                    |
-| Power BI | Cleaning, testing, and analyzing the data             |
-| SQL      | Visualizing the data via interactive dashboards       |
+| Power BI | Visualizing the data via interactive dashboards       |
+| SQL      | Cleaning, testing, and analyzing the data             |
 | Github   | Hosting the project documentation and version control |
 
 # Development
