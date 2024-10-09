@@ -228,7 +228,7 @@ HAVING COUNT(*) > 1
 ```
 ### Output
 
-![Duplicate Check](./Assets/Images/Duplicate_check)
+![Duplicate Check](https://github.com/Stephen-I/Stephen-I.github.io/blob/main/Assets/Images/Duplicate%20check.png)
 
 
 # Visualisation
