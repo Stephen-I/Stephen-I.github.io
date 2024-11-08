@@ -1,4 +1,4 @@
-# Data portfolio
+# Compound project with Data Cleaning and Visualisation
 
 # Objective
 
