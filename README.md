@@ -15,7 +15,7 @@ We need data on the top Anime ratings from 2023 that includes:
 - Amount of times they've been favourited
 - The score rating 
 
-Wheres the data coming from - [Kaggle](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
+Where's the data coming from - [Kaggle](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)
 
 
 ### 1. What are the top 7 most liked Anime studios?
